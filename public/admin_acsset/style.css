@@ -1,0 +1,66 @@
+.container-slide{
+	width: 545px;
+	height: 400px;
+}
+.con{
+	background-color:  #dedede;
+	width: 1250px;
+}
+.box1{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 30px;
+}
+.background-login{
+background-color: #E0EAFC;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.box2 {
+ 	width: 100px;
+}
+.box3 {
+	height: 50px;
+}
+#menu-vp{ 
+	border-bottom:3px solid #CCC; 
+	padding:0 0 20px 0; 
+	margin-top: 60px;
+}
+#menu-vp ul{}
+#menu-vp>ul>li{ 
+	display:inline;
+	float:left;
+	border-right: solid 2px #CCCCCC;
+	position: relative;
+	
+}
+#menu-vp ul li:hover{
+	background-color: #5F5C5C;
+}
+#menu-vp>ul>li>a{ 
+	color:#333; 
+	font-weight:bold; 
+	font-size:14px; 
+	padding:0 7px 0px 7px 
+}
+#menu-vp>ul>li:last-child{ border-right:none}	
+#menu-vp>ul>li>a:hover{ color:white}
+#menu-vp>ul>li>ul{
+	display: none;
+	position: absolute;
+	background-color: #dedede;
+	top:17px;
+	width: 150px;
+	left: 0px;
+}
+#menu-vp>ul>li:hover ul{
+	display: block;
+}
+#menu-vp>ul>li>ul>li{
+	border-right:none;
+	padding: 5px 0 5px 7px; 
+}
+#menu-vp>ul>li>ul>li>a:hover{color:white}
+
